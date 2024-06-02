@@ -12,6 +12,10 @@ The objective of this project is to develop an autonomous AI system that trains 
 - **AI-Driven Sorting**: Trains robots to sort recyclable materials with higher precision.
 - **Efficiency Improvement**: Aims to streamline recycling processes, reducing waste and improving material recovery rates.
 
+### Note
+This project specifically handles the example of milk jugs for demonstrating the CycleGAN model's capabilities.
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -29,4 +33,4 @@ The objective of this project is to develop an autonomous AI system that trains 
 1. Clone this repository:
    ```sh
    git clone https://github.com/yourusername/robot-assisted-recycling.git
-   cd robot-assisted-recycling
+   python /path/to/CycleGAN-PyTorch/inference.py --inputs_path /path/to/input_image.jpg --output_path /path/to/output_image.jpg --model_arch_name cyclenet --model_weights_path /path/to/model_weights.pth.tar --device cuda:0
